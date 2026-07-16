@@ -2,13 +2,13 @@
 <img width="50%" height="auto" alt="adding-logo-export" src="https://github.com/user-attachments/assets/dc71e265-dcef-4170-9768-40f64f49b252" />
 </p>
 
-Powerful operator library for GameMaker 🚀  
-Human-made, Human-gayd 🏳️‍🌈
+<p align="center">Powerful operator library for GameMaker 🚀</p>
+<p align="center">Human-made, Human-gayd 🏳️‍🌈</p>
 
 ## Features:
 - Addition and its counterparts
 - Easily combine values with intuitive functions
-
+- JSDocs for all functions
 
 ## Quick start:
 Quickly get started with Adding using its easy to understand API  
