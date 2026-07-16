@@ -35,7 +35,7 @@ Adding.invert(a) // -> Real
 Adding.operator_get_name(operator) // -> String
 Adding.operator_get_symbol(operator) // -> String
 
-// Operators:
+// Operators
 enum AddingOperator {
 	equals,
 	not_equals,
