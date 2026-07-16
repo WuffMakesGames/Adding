@@ -2,7 +2,8 @@
 <img width="50%" height="auto" alt="adding-logo-export" src="https://github.com/user-attachments/assets/dc71e265-dcef-4170-9768-40f64f49b252" />
 </p>
 
-Powerful operator library for GameMaker 🚀
+Powerful operator library for GameMaker 🚀  
+Human-made, Human-gayd 🏳️‍🌈
 
 ## Features:
 - Addition and its counterparts
