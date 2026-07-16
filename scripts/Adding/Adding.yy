@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Adding",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Adding",
+  "parent":{
+    "name":"Adding",
+    "path":"folders/Adding.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__AddingError",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__AddingError",
+  "parent":{
+    "name":"Adding",
+    "path":"folders/Adding.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
