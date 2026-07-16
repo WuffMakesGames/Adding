@@ -18,6 +18,8 @@ y = 10
 value = Adding.operate(x, y, AddingOperator.add) // 12
 ```
 
+Downloads also available on [Itch.io](https://wuffmakesgames.itch.io/adding).
+
 ## Cheatsheet:
 Look up operators and methods to implement your ideas faster
 ```js
