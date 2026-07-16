@@ -12,6 +12,14 @@
 
 ## Quick start:
 Quickly get started with Adding using its easy to understand API  
+
+In GameMaker IDE:
+1. Under Tools select "Import Local Package"
+2. Select the .yymps from the file manager
+3. Wait for gamemaker to load package
+4. Select "add all"
+5. Hit "Import"
+
 ```js
 x = 2
 y = 10
