@@ -2,6 +2,8 @@
 
 var _a = 10
 var _b = 100
+
+// Test operators
 Adding.operate(_a, _b, AddingOperator.equals)
 Adding.operate(_a, _b, AddingOperator.not_equals)
 Adding.operate(_a, _b, AddingOperator.approx_equals)
@@ -23,5 +25,6 @@ Adding.operate(_a, _b, AddingOperator.square_root)
 Adding.operate(_a, _b, AddingOperator.percent)
 Adding.operate(_a, _b, AddingOperator.per_mille)
 
+// Invert values
 Adding.invert(_a)
 Adding.invert(_b)
