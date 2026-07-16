@@ -19,10 +19,10 @@ function Adding() constructor {
 	//===============================================================
 	#region Methods
 	
-	/// Performs a mathematical operation on values a and b and returns the result
-	/// @arg {Real} a The left-hand operator
-	/// @arg {Real} b The right-hand operator
-	/// @arg {Enum.AddingOperator} operator The operation to be performed on a and b
+	/// Performs a mathematical operation on values a and b and returns the result.
+	/// @arg {Real} a The left-hand operator.
+	/// @arg {Real} b The right-hand operator.
+	/// @arg {Enum.AddingOperator} operator The operation to be performed on a and b.
 	/// @return {Real,Bool,Array<Real>}
 	static operate = function(_a, _b, _operator) {
 		var _output = 0;
@@ -102,8 +102,9 @@ function Adding() constructor {
 		return _output;
 	}
 	
-	/// Gets the inverse of a value (-10 = 10) (10 = -10)
-	/// @arg {Real} a
+	/// Gets the inverse of a value (i.e. -10 = 10).
+	/// @arg {Real} a The value to invert.
+	/// @return {Real}
 	static invert = function(_a) {
 		return _a * -1;
 	}
@@ -112,8 +113,8 @@ function Adding() constructor {
 	//===============================================================
 	#region Getters
 	
-	/// Returns the name of an operator
-	/// @arg {Enum.AddingOperator} operator
+	/// Returns the name of an operator.
+	/// @arg {Enum.AddingOperator} operator The operator to get the name of.
 	/// @return {String}
 	static operator_get_name = function(_operator) {
 		switch (_operator) {
@@ -141,8 +142,8 @@ function Adding() constructor {
 		}
 	}
 	
-	/// Returns the symbol of an operator
-	/// @arg {Enum.AddingOperator} operator
+	/// Returns the symbol of an operator.
+	/// @arg {Enum.AddingOperator} operator The operator to get the symbol of.
 	/// @return {String}
 	static operator_get_symbol = function(_operator) {
 		switch (_operator) {
