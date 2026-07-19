@@ -176,26 +176,26 @@ function Adding() constructor {
 	
 	// Operators that can be used in Adding.operate()
 	enum AddingOperator {
-		equals,
-		not_equals,
-		approx_equals,
-		greater_than,
-		lesser_than,
-		greater_than_or_equal_to,
-		lesser_than_or_equal_to,
-		add,
-		subtract,
-		add_and_subtract,
-		subtract_and_add,
-		multiply,
-		times,
-		divide,
-		fraction,
-		modulo,
-		exponent,
-		square_root,
-		percent,
-		per_mille,
+		equals,						// Returns true if two values are equal
+		not_equals,					// Returns false if two values are equal
+		approx_equals,				// Returns true if the difference between two values falls within a certain range
+		greater_than,				// Returns true if a is greater than b
+		lesser_than,				// Returns true if a is lesser than b
+		greater_than_or_equal_to,	// Returns true if a is greater than or equal to b
+		lesser_than_or_equal_to,	// Returns true if a is lesser than or equal to b
+		add,						// Increases a value by a certain amount
+		subtract,					// Reduces a value by a certain amount
+		add_and_subtract,			// Performs addition and subtraction and returns an array containing the results
+		subtract_and_add,			// Performs subtraction and addition and returns an array containing the results
+		multiply,					// Adds a value to itself a certain number of times
+		times,						// Same as AddingOperator.multiply
+		divide,						// Returns the number of times a number can fit into another number
+		fraction,					// Same as AddingOperator.divide
+		modulo,						// Wraps a value so that it is not larger than b
+		exponent,					// Multiplies a number by its self exponentially
+		square_root,				// Finds the value that can be multiplied by itself to get the input
+		percent,					// Returns the percent value of a number out of 100
+		per_mille,					// Returns the percent value of a number out of 1000
 	}
 	
 }
