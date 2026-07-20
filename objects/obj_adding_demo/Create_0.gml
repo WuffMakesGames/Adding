@@ -12,7 +12,8 @@ GetStackString = function() {
 	var _output = ""
 	for (var _i = 0; _i < array_length(stack); _i++) {
 		var _item = stack[_i]
-		_output += $"{_item.input} {Adding.operator_get_symbol(_item.op)} "
+		if (_item.operator == -1) _output += $"{_item.input}"
+		else _output += $"{_item.input} {Adding.operator_get_symbol(_item.operator)} "
 	}
 	return _output
 }
@@ -40,7 +41,8 @@ PushOperator = function(_operator) {
 	if (input == "") return;
 	array_push(stack, {
 		"input": input,
-		"op": _operator,
+		"value": real(input),
+		"operator": _operator,
 	})
 	input = "0"
 }
@@ -59,11 +61,27 @@ PushInput = function(_char) {
 
 /// Solves the current input
 Resolve = function() {
-	var _output = ""
-	for (var _i = 0; _i < array_length(stack); _i++) {
+	// TODO: Fix crash when pushing two empty operators
+	PushOperator(-1)
+	
+	// Stack too short
+	if (array_length(stack) < 2) return;
+	
+	// Get result
+	var _output = stack[0].value
+	var _operator = stack[0].operator
+	
+	for (var _i = 1; _i < array_length(stack); _i++) {
 		var _item = stack[_i]
-		_output += $"{_item.input} {Adding.operator_get_symbol(_item.op)} "
+		_output = Adding.operate(_output, _item.value, _operator)
+		_operator = _item.operator
 	}
+	
+	// Clear and push result
+	ClearAll()
+	input = string(_output)
+	
+	// Return output
 	return _output
 }
 

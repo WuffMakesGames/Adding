@@ -10,10 +10,6 @@
     {"name":"inst_73111640","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_5CAACE69","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_1EE572B4","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_3E338D1F","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_1246634E","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_34458BAE","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_25A81FD9","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_7BB5F670","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_4BA9AD1D","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_244CF0CE","path":"roomui/RoomUI/RoomUI.yy",},
@@ -53,10 +49,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":640,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":480,
   },
   "sequenceId":null,
   "views":[
