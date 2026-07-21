@@ -6,3 +6,5 @@ is_hovered = false
 is_held = false
 hover = 0
 held = 0
+
+phy_active = false
