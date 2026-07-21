@@ -3,7 +3,6 @@
 history = []
 stack = []
 input = "0"
-phy_active = false
 
 //===================================================================
 #region Methods
