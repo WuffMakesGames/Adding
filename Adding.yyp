@@ -31,7 +31,6 @@
     {"id":{"name":"obj_adding_demo_button","path":"objects/obj_adding_demo_button/obj_adding_demo_button.yy",},},
     {"id":{"name":"obj_adding_demo","path":"objects/obj_adding_demo/obj_adding_demo.yy",},},
     {"id":{"name":"rm_adding_demo","path":"rooms/rm_adding_demo/rm_adding_demo.yy",},},
-    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"__AddingConfig","path":"scripts/__AddingConfig/__AddingConfig.yy",},},
     {"id":{"name":"__AddingError","path":"scripts/__AddingError/__AddingError.yy",},},
     {"id":{"name":"__AddingMessage","path":"scripts/__AddingMessage/__AddingMessage.yy",},},
