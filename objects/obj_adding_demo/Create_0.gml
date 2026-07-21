@@ -61,8 +61,7 @@ PushInput = function(_char) {
 
 /// Solves the current input
 Resolve = function() {
-	// TODO: Fix crash when pushing two empty operators
-	PushOperator(-1)
+	if (array_length(stack) > 0) PushOperator(-1)
 	
 	// Stack too short
 	if (array_length(stack) < 2) return;
